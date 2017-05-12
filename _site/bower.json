@@ -1,0 +1,26 @@
+{
+  "name": "Aline Bretas Cursos Maquiagem",
+  "description": "Cursos para maquiagemn profissional",
+  "main": "index.js",
+  "authors": [
+    "Everton Boni"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Maquiagem",
+    "Make",
+    "Cursos"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

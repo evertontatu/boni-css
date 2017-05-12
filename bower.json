@@ -1,0 +1,25 @@
+{
+  "name": "Boni CSS",
+  "description": "CSS for all",
+  "main": "index.js",
+  "authors": [
+    "Everton Boni"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "css",
+    "template"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

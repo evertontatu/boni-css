@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'akrobat-black';
+  src: url('fonts/akrobat-extrabold.eot');
+  src: url('fonts/akrobat-extrabold.otf');
+  src: url('fonts/akrobat-extrabold.woff') format('woff');
+  src: url('fonts/akrobat-extrabold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:bold');
+@import url('https://fonts.googleapis.com/css?family=Roboto:light');
+
+
+$font-bold: 'akrobat-black', Helvetica, Arial, sans-serif;
+$font-open: 'Open Sans', sans-serif;
+$font-roboto-light: 'Roboto Light', Helvetica, Arial, sans-serif;
+
+
+$grey-font:  #707070;
+$grey-bg: #e5e5e5;
+$pink-color: #cf90a0;
+$yellow-color: #eccbb7;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "reset",
+  "common",
+  "flexboxgrid",
+  "header",
+  "proximosCursos",
+  "ligue",
+  "social-media",
+  "map",
+  "photo-box"
+;

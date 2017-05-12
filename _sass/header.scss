@@ -1,0 +1,18 @@
+header{
+  width: 100%;
+  height: 790px;
+  background: url("../images/bg-home.jpg") 50% 0%;
+  background-size: cover;
+}
+
+@media screen and (max-width:900px){
+  header{
+    background: url("../images/bg-home.jpg") 30% 0%;
+    background-size: cover;
+  }
+}
+
+.logo{
+  height: 120px;
+  margin-top: 15px;
+}

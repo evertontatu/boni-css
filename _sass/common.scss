@@ -1,0 +1,69 @@
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (max-width:960px){
+  .wrapper{
+    width:100%;
+  }
+}
+
+body{
+  font-size:62.5%;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: $font-bold;
+  color: $grey-font;
+  font-size: 1.6em;
+}
+
+h1{
+  font-family: $font-roboto-light;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: white;
+  text-align: right;
+}
+
+h2{
+  font-size: 5.0em;
+  text-align: center;
+}
+
+h3.phone{
+  font-family: "Roboto Light";
+  font-size: 5.0em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width:800px){
+  h2, h3.phone{
+    font-size: 4em;
+  }
+}
+
+p{
+  font-family: $font-open;
+  color: $grey-font;
+  font-size: 1.6em;
+}
+
+a{
+  font-family: $font-open;
+  color: $grey-font;
+  font-size: 1.6em;
+  text-decoration: none;
+}
+
+.pink-wave{
+  width: 125px;
+  margin: 0 auto;
+  margin-top: 30px;
+  svg{
+    width: 100%;
+  }
+}
