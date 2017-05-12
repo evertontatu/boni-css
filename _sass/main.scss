@@ -21,10 +21,17 @@ $font-open: 'Open Sans', sans-serif;
 $font-roboto-light: 'Roboto Light', Helvetica, Arial, sans-serif;
 
 
-$grey-font:  #707070;
-$grey-bg: #e5e5e5;
-$pink-color: #cf90a0;
-$yellow-color: #eccbb7;
+$grey-light:  #e6e9ee;
+$grey-medium: #aab2bd;
+$grey-dark: #434a54;
+$grape-color: #ed5564;
+$orange: #fb6e52;
+$yellow: #ffce55;
+$green: #a0d468;
+$mint: #48cfae;
+$aqua: #4fc0e8;
+$blue: #5d9ceb;
+$lavander: #ac92ed;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -32,9 +39,6 @@ $yellow-color: #eccbb7;
   "common",
   "flexboxgrid",
   "header",
-  "proximosCursos",
-  "ligue",
-  "social-media",
-  "map",
-  "photo-box"
+  "grid",
+  "social-media"
 ;
