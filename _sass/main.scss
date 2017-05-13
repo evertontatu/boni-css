@@ -20,6 +20,9 @@ $font-bold: 'akrobat-black', Helvetica, Arial, sans-serif;
 $font-open: 'Open Sans', sans-serif;
 $font-roboto-light: 'Roboto Light', Helvetica, Arial, sans-serif;
 
+$primary-color: #a0d468;
+$light-color: lighten($primary-color, 7);
+$dark-color: darken($primary-color, 7);
 
 $grey-light:  #e6e9ee;
 $grey-medium: #aab2bd;
@@ -39,6 +42,9 @@ $lavander: #ac92ed;
   "common",
   "flexboxgrid",
   "header",
+  "banner",
   "grid",
-  "social-media"
+  "container-box",
+  "social-media",
+  "contact"
 ;

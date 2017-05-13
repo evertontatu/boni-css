@@ -1,15 +1,14 @@
 {
-  "name": "Aline Bretas Cursos Maquiagem",
-  "description": "Cursos para maquiagemn profissional",
+  "name": "Boni CSS",
+  "description": "CSS for all",
   "main": "index.js",
   "authors": [
     "Everton Boni"
   ],
   "license": "ISC",
   "keywords": [
-    "Maquiagem",
-    "Make",
-    "Cursos"
+    "css",
+    "template"
   ],
   "homepage": "",
   "ignore": [

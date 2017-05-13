@@ -16,7 +16,7 @@ body{
 
 h1, h2, h3, h4, h5{
   font-family: $font-bold;
-  color: $grey-font;
+  color: $grey-dark;
   font-size: 1.6em;
 }
 
@@ -30,31 +30,18 @@ h1{
 
 h2{
   font-size: 5.0em;
-  text-align: center;
-}
-
-h3.phone{
-  font-family: "Roboto Light";
-  font-size: 5.0em;
-  text-align: center;
-  margin-top: 30px;
-}
-
-@media screen and (max-width:800px){
-  h2, h3.phone{
-    font-size: 4em;
-  }
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 p{
   font-family: $font-open;
-  color: $grey-font;
   font-size: 1.6em;
+  line-height: 2em;
 }
 
 a{
   font-family: $font-open;
-  color: $grey-font;
   font-size: 1.6em;
   text-decoration: none;
 }

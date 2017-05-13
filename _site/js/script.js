@@ -20,35 +20,35 @@
 // });
 
 //Menu header button burger
-// $(function(){
-//
-// 	$('.menu-button-burger').click(function(e){
-// 		e.stopPropagation();
-// 		toggleNav();
-// 	});
-//
-// 	$('.main').click(function(e){
-// 		var target = $(e.target);
-// 		if(!target.closest('.menu-list').length && $('.main').hasClass('show-nav')) toggleNav();
-// 	});
-//
-// 	function toggleNav(){
-// 		if($('.main').hasClass('show-nav')){
-// 			$('.main').removeClass('show-nav');
-// 		}
-// 		else{
-// 			$('.main').addClass('show-nav');
-// 		}
-//
-//     if($('.menu-list').hasClass('show-nav')){
-//       $('.menu-list').removeClass('show-nav');
-//     }
-//     else{
-//       $('.menu-list').addClass('show-nav');
-//     }
-// 	}
-//
-// });
+$(function(){
+
+	$('.menu-button-burger').click(function(e){
+		e.stopPropagation();
+		toggleNav();
+	});
+
+	$('.main').click(function(e){
+		var target = $(e.target);
+		if(!target.closest('.menu-list').length && $('.main').hasClass('show-nav')) toggleNav();
+	});
+
+	function toggleNav(){
+		if($('.main').hasClass('show-nav')){
+			$('.main').removeClass('show-nav');
+		}
+		else{
+			$('.main').addClass('show-nav');
+		}
+
+    if($('.menu-list').hasClass('show-nav')){
+      $('.menu-list').removeClass('show-nav');
+    }
+    else{
+      $('.menu-list').addClass('show-nav');
+    }
+	}
+
+});
 
 //Height device
 $(function() {

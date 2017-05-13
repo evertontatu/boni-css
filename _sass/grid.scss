@@ -1,84 +1,10 @@
-.proximos-cursos{
+.grid{
   padding: 100px 0;
-  background-color: $grey-bg;
+  background-color: $grey-light;
 }
 
 @media screen and (max-width:800px){
-  .proximos-cursos{
+  .grid{
     padding: 20px 0;
-  }
-}
-
-.box-cursos{
-  margin-top: 30px;
-}
-
-.curso{
-  width: 225px;
-  height: 220px;
-  background-color: white;
-  padding: 30px;
-  margin: 0 auto;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  background-color: white;
-  background: url("../images/cursos-bg.jpg") 0% 100% no-repeat;
-  transition: ease-in-out all 200ms;
-  border-radius: 15px;
-  &:hover{
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
-    background: url("../images/cursos-bg.jpg") 100% 100% no-repeat;
-  }
-  p{
-    font-family: $font-roboto-light;
-    text-transform: uppercase;
-    transition: ease-in-out all 200ms;
-  }
-  h3{
-    font-size: 3.5em;
-    word-wrap: break-word;
-    transition: ease-in-out all 200ms;
-  }
-  h4{
-    font-family: $font-roboto-light;
-    font-size: 2.0em;
-    margin-top: 10px;
-    word-wrap: break-word;
-  }
-  h5{
-    font-family: $font-roboto-light;
-    font-size: 3.0em;
-  }
-  div > div{
-    display: flex;
-  }
-}
-
-.curso:hover h3, .curso:hover p {
-  color: $pink-color;
-}
-
-.icon-calendar{
-  width: 20px;
-  margin: 10px 10px 0 0;
-  svg{
-    width: 100%;
-    path{
-      fill:#707070;
-    }
-  }
-}
-
-@media screen and (max-width:800px){
-  .curso{
-    padding: 10px;
-    width: 100%;
-    height: 220px;
-    h3, p{
-      color: $pink-color;
-    }
-
   }
 }
