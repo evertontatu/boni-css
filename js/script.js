@@ -50,6 +50,22 @@ $(function(){
 
 });
 
+//Parallax
+$(function(){
+    $(window).scroll(function(){
+        var wScroll = $(this).scrollTop();
+
+        $('.parallax-text').css({
+            'transform' : 'translate(0px, '+ wScroll / 4 +'%)'
+        });
+
+        $('.parallax-home').css({
+            'background-position' : 'center '+ wScroll / - 5 +'px'
+        });
+
+    });
+});
+
 //Height device
 $(function() {
     var heightDevice = $(window).height();
